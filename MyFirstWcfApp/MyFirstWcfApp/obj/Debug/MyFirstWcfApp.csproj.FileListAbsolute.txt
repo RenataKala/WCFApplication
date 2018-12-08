@@ -1,0 +1,12 @@
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\MyFirstWcfApp.dll.config
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\MyFirstWcfApp.dll
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\MyFirstWcfApp.pdb
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.dll
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.SqlServer.dll
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.xml
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.SqlServer.xml
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csproj.CoreCompileInputs.cache
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csproj.CopyComplete
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.dll
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.pdb
+D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csprojAssemblyReference.cache
