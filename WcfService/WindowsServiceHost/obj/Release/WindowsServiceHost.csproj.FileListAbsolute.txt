@@ -1,0 +1,15 @@
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\WindowsServiceHost.exe.config
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\WindowsServiceHost.exe
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\WindowsServiceHost.pdb
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\WcfService.dll
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\EntityFramework.dll
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\WcfService.pdb
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\WcfService.dll.config
+D:\WCF\WcfService\WindowsServiceHost\bin\Release\EntityFramework.xml
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.csprojAssemblyReference.cache
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.ProjectInstaller.resources
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.csproj.GenerateResource.cache
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.csproj.CoreCompileInputs.cache
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.csproj.CopyComplete
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.exe
+D:\WCF\WcfService\WindowsServiceHost\obj\Release\WindowsServiceHost.pdb

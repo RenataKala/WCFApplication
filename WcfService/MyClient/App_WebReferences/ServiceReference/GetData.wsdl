@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GetData" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:58505/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:58505/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:58505/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGetData_GetStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudent" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAllStudents_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStudents" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAllStudents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStudentsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGetData">
+    <wsdl:operation name="GetStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGetData/GetStudent" message="tns:IGetData_GetStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGetData/GetStudentResponse" message="tns:IGetData_GetStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStudents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGetData/GetAllStudents" message="tns:IGetData_GetAllStudents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGetData/GetAllStudentsResponse" message="tns:IGetData_GetAllStudents_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IGetData" type="tns:IGetData">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStudent">
+      <soap:operation soapAction="http://tempuri.org/IGetData/GetStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStudents">
+      <soap:operation soapAction="http://tempuri.org/IGetData/GetAllStudents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GetData">
+    <wsdl:port name="BasicHttpBinding_IGetData" binding="tns:BasicHttpBinding_IGetData">
+      <soap:address location="http://localhost:58505/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
