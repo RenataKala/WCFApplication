@@ -19,5 +19,8 @@ namespace MyFirstWcfApp
 
         [OperationContract]
         void AddExam(Exam exam);
+
+        [OperationContract]
+        void UpdateExamName(Exam exam);
     }
 }

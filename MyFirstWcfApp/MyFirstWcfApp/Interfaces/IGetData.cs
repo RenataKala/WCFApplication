@@ -22,5 +22,8 @@ namespace MyFirstWcfApp
 
         [OperationContract]
         List<Exam> GetExams();
+
+        [OperationContract]
+        Exam GetExamByName(string name);
     }
 }
