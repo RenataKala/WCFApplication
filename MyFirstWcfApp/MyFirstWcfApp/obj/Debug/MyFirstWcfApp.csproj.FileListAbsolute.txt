@@ -10,3 +10,17 @@ D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csproj.CopyComplete
 D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.dll
 D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.pdb
 D:\WCF\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csprojAssemblyReference.cache
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\NLog.config
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\MyFirstWcfApp.dll.config
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\MyFirstWcfApp.dll
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\MyFirstWcfApp.pdb
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.dll
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\NLog.dll
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.xml
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\bin\NLog.xml
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.csproj.CopyComplete
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.dll
+C:\Users\Home\Desktop\gitlab\WCFApplication\MyFirstWcfApp\MyFirstWcfApp\obj\Debug\MyFirstWcfApp.pdb

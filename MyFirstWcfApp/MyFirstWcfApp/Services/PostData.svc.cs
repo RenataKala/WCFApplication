@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -12,12 +13,12 @@ namespace MyFirstWcfApp
     public class PostData : IPostData,IDisposable
     {
         private Entities db = new Entities();
+        static Logger logger = LogManager.GetLogger("fileLogger");
 
         public void AddExam(Exam exam)
-        {
-            if (exam == null) return;
-            db.Exams.Add(exam);
-            db.SaveChanges();
+        {                        
+                db.Exams.Add(exam);
+                db.SaveChanges();           
         }
 
         public void AddStudent(Student std)
@@ -30,6 +31,10 @@ namespace MyFirstWcfApp
         public void UpdateName(Student std)
         {
             var updatedStudent = db.Students.FirstOrDefault(x => x.ID == std.ID);
+            if(updatedStudent == null)
+            {
+                logger.Error("No student found"); return;
+            }
             updatedStudent.FullName = std.FullName;
             db.SaveChanges();
         }

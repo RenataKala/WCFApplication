@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -13,6 +14,7 @@ namespace MyFirstWcfApp
     public class GetData : IGetData, IDisposable
     {
         private Entities db = new Entities();
+        Logger logger = LogManager.GetLogger("fileLogger");
 
         public List<Student> GetStudents()
         {
@@ -42,6 +44,20 @@ namespace MyFirstWcfApp
         public void Dispose()
         {
             db.Dispose();
+        }
+
+        public void GetNum(int id)
+        {
+            try
+            {
+                int zero = 0;
+                int result = id / zero;
+
+            }
+            catch(DivideByZeroException ex)
+            {
+                logger.Error(ex,"Whooops");
+            }
         }
     }
 }

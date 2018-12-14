@@ -25,5 +25,8 @@ namespace MyFirstWcfApp
 
         [OperationContract]
         Exam GetExamByName(string name);
+
+        [OperationContract]
+        void GetNum(int id);
     }
 }
